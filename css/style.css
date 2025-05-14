@@ -542,7 +542,7 @@ img{
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
-    margin-bottom: 60px;  
+    margin-bottom: 30px;  
 }
 
 .section-title h2{
@@ -553,6 +553,32 @@ img{
     text-transform: uppercase;
     margin: 0;
 }
+
+.custom-button {
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: 20%;
+    z-index: 9;
+    border: 0;
+    transition: background-image 0.2s ease-in-out, box-shadow 0.2s;
+  }
+  
+  .custom-button:hover {
+    background-image: linear-gradient(-180deg, #e55f1a, #c42300);
+  }
+  
 
 .section-title h2::before{
     content: attr(data-heading);
